@@ -1,0 +1,70 @@
+.header{
+    display: flex;
+    align-items: center;
+    padding: 19px 0px;
+}
+
+.header .logo{
+    width: 136px;
+    height: 32px;
+    margin-right: 60px;
+}
+
+.header .logo img{
+    width: 100%;
+}
+
+.header .link{
+    display: flex;
+    gap: 60px;
+    font-weight: 500;
+    color: #18191f
+}
+
+.countryselector{
+    margin-left: auto;
+    background-color:rgb(247, 247, 251);
+    width: 172px;
+    height: 32px;
+    border-radius: 100px;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+   
+    
+}
+
+.countryselector .selector{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.countryselector .selector .flag{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.countryselector .selector .flag img{
+    width: 24px;
+    height: 16px;
+}
+
+.countryselector .selector .flag .text{
+    font-size: 12px;
+}
+
+.countryselector .selector .arrow i{
+    display: flex;
+    align-items: center;
+}
+
+/* header ends here */
+
+
+/* body starts here */
+
+
+/* body ends here */
