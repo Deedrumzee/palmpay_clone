@@ -1,5 +1,48 @@
-.body{
 
-    background-color: bisque;
+
+
+
+.body{
+    width: calc(80% - 12px) ;
+    font-family:  'Poppins', sans-serif;
+    margin-top: 58px;
+    
+}
+
+
+.body .finance{
+    font-size: 78px;
+    font-weight: 900;
+    line-height: normal;
+    text-align: center;
+    color: #18191f;
+    font-family:  'Poppins',  sans-serif;
+    
+}
+
+.body .text2{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 32px;
+    color: #18191f;
+    
+}
+
+.btn{
+    display: flex;
+   justify-content: center;
+   gap: 12px;
+   margin-top:52px;
+    
+}
+
+.button img{
+    width: 157px;
 
 }
+
+.reference{
+    width: 100%;
+    
+}
+
