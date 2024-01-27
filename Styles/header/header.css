@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     padding: 19px 0px;
+    
 }
 
 .header .logo{
@@ -20,6 +21,96 @@
     font-weight: 500;
     color: #18191f
 }
+
+.header .drop .hover{
+    display: flex;
+    position: absolute;
+    width:calc(80% - 12px);
+    width: 100%;
+    left: 0;
+    padding: 30px calc(10% + 6px);
+    padding-bottom: 80px;
+    background-color: #fff;
+
+    
+    
+}
+
+
+.blur{
+   width: 100%;
+   height: 100vh;
+   position: absolute;
+   display: none;
+   background-color: rgba(0, 0, 0, 0.9);
+   left: 0;
+   top:0 ;
+}
+  
+
+.hover{
+    margin-top: 50px;
+    display: flex;
+    gap: 65px;
+    z-index: 777;
+    background-color: rebeccapurple;
+
+}
+
+
+
+
+.hover .mgrid .mmgrid .minitext{
+    font-size: 14px;
+ }
+
+ .hover .mtext{
+     width: 15%;
+     
+ }
+
+ .hover .mtext .mbigtext{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+ }
+
+ .hover .mtext .msmalltext{
+    font-size: 12px;
+ }
+
+ .hover .mgrid{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    row-gap: 30px;
+    margin-bottom: 20px;
+ }
+ 
+ 
+ .hover .mgrid .mmgrid .hugetext{
+    text-transform:capitalize;
+    font-size: 18px;
+    font-weight: 300;
+    color: #18191f;
+    line-height: 25px;
+ }
+
+ .hover .mbutton{
+
+    display: grid;
+    margin-left: auto;
+    
+
+ }
+
+ .hover .mbutton img{
+     
+    width: 166px;
+
+ }
+ 
+
 
 .countryselector{
     margin-left: auto;
@@ -61,10 +152,10 @@
     align-items: center;
 }
 
+.down,.droplist{
+    display: none;
+}
+
 /* header ends here */
 
 
-/* body starts here */
-
-
-/* body ends here */
