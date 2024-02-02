@@ -22,6 +22,9 @@
     color: #18191f
 }
 
+
+
+
 .header .drop .hover{
     display: flex;
     position: absolute;
@@ -32,8 +35,6 @@
     padding-bottom: 80px;
     background-color: #fff;
 
-    
-    
 }
 
 
@@ -94,21 +95,116 @@
     font-weight: 300;
     color: #18191f;
     line-height: 25px;
- }
+}
 
- .hover .mbutton{
+.hover .mbutton{
 
     display: grid;
     margin-left: auto;
     
+}
 
- }
-
- .hover .mbutton img{
+.hover .mbutton img{
      
     width: 166px;
 
- }
+}
+
+
+
+.down{
+
+    position: absolute;
+    width:calc(80% - 12px);
+    width: 100%;
+    left: 0;
+    padding: 30px calc(10% + 6px);
+    padding-bottom: 80px;
+    padding-top: 55px;
+    
+    background-color: aquamarine;
+
+}
+
+
+
+/* .down{
+    margin: 30px 0 0 50px;
+    background-color: rgb(136, 103, 36);
+} */
+
+.down .toptext{
+
+}
+
+.down .toptext .sbigtext{
+     font-size: 22px;
+     font-weight: 600;
+}
+
+.down .toptext .ssmalltext{
+    font-size: 14px;
+    color: #18191f;
+    letter-spacing: -.7px;
+}
+
+.down .twingrid .firstbold,.ndbold{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px 0px;
+    text-transform: capitalize;
+}
+
+.down .twingrid{
+    display: flex;
+    margin-top: 20px;
+}
+
+.down .firstgridset .gridduo{
+    display: grid;
+    grid-template-columns: 300px;
+    row-gap: 30px;
+    margin-bottom: 20px;
+}
+
+.down .secondgridset .gridset{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    row-gap: 30px;
+    margin-bottom: 20px;
+
+}
+
+.hugetext{
+    font-weight: 500;
+    font-size: 20px ;
+    text-transform: capitalize;
+    
+}
+
+.t{
+    font-weight: 400;
+    font-size: 14px ;
+    letter-spacing: -.5px;
+}
+
+span{
+    font-weight: 300;
+    font-size: 12px ;
+    letter-spacing: -.5px;
+}
+
+
+.droplist{
+
+    display: none;
+
+}
+
+
+.hover{
+    display: none !important;
+}
  
 
 
@@ -152,8 +248,3 @@
     align-items: center;
 }
 
-.down,.droplist{
-    display: none;
-}
-
-/* header ends here */

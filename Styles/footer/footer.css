@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+.footer{
+    width: 100vw;
+}
+
+.firstsection{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .firstsection .shrinking{
+    background-color: aqua;
+    width: calc(80% - 12px) ;
+   
+}
+
+
+.firstsection .shrinking .insidefirstsection{
+
+    display: flex;
+
+}
+
+.insidefirstsection .join{
+
+}
+
+.insidefirstsection .logoflex{
+    margin-left: auto;
+    display: flex;
+}
+
+.insidefirstsection .logoflex .googleimg+.appleimg{
+    width: 157px;
+}

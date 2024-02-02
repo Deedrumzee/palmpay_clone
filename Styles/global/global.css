@@ -19,6 +19,7 @@ section{
 
 .shrink{
     width: calc(80% - 12px) ;
+    
 }
 
 .fixed{
@@ -27,5 +28,4 @@ section{
     z-index: 99999;
     background-color: white;
 }
-
 
